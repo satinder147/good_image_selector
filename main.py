@@ -97,7 +97,7 @@ if __name__ == '__main__':
                                                                     " copying the images. "
                                                                     "Look at the repository "
                                                                     "ReadMe to understand")
-    parser.add_argument('--ext', default=['JPG'], help="image extension to copy")
+    parser.add_argument('--ext', default='JPG', help="image extension to copy")
     parser.add_argument('--display_height', type=int, default=1080, help="in pixels, "
                                                                          "while maintainng aspect"
                                                                          "ratio, scale height to 75"
