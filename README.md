@@ -12,7 +12,7 @@ I was not able to find any tool, that helps me preview images(at very large size
 
 Features
 1. View images at large size and simultaneously select images. 
-2. Images are not copied as soon as you select images, nor they are copied in the end. Reason for not copying images as soon as you select is that you might not want to copy a image, or might decide later after looking at some more images. Copying images later has a problem that it takes a while after you are done labelling to copy the images. Any failures during this operation needs relabelling. I follow a hybrid approach where a buffer of images is kept(default 10 images, user configurable). The least recently selected photo is copied to the destination whenever the buffer is filled. This helps you to correct any labelling mistakes you make.
+2. Images are not copied as soon as you select images, nor they are copied in the end. Reason for not copying images as soon as you select is that you might not want to copy a image, or might decide later after looking at some more images. Copying images later has a problem that it takes a while after you are done labelling to copy the images. Any failures during this operation needs relabelling. I follow a hybrid approach where a buffer of images is kept(default 10 images, buffer_size). The least recently selected photo is copied to the destination whenever the buffer is filled. This helps you to correct any labelling mistakes you make.
 3. Keyboard only operation
 
 Controls
