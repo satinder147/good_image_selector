@@ -1,21 +1,22 @@
-# good_image_selector
+# Good Image Selector
 
-Why I wrote this script
-Whenever I go out, I click a lot of photographs. 1000-2000 photos per day. I use google photos to back up good memories. My camera clicks very large JPEGS(approximately 20MB). Backing up all the photos will be very costly and since 95% of photos are either redundant copies, bad quality photos, this script  comes in very handy to choose the good ones.
+## Why I wrote this
+Whenever I'm out and about, I'm always snapping away with my camera. I easily rack up between 1000 to 2000 photos a day. These JPEGs are pretty hefty, around 20MB each. So, storing them all on Google Photos would cost a pretty penny. Plus, let's be real, about 95% of them are either duplicates or just not that great. That's where this handy script swoops in. It helps me cherry-pick the gems from the sea of snapshots, ensuring that only the best memories get backed up.
 
-Uptill now, I used to do this process by viewing the images as extra large previews and then selecting the images. There were two problems with this
-1. Extra large previews are also small, can't see most of the things clearly
-2. Any accidental click or click press might ruin all the hardwork I did.
-3. Using the mouse makes the process slower
+Until recently, my approach involved sifting through images using extra-large previews, which presented a couple of challenges. 
+1. despite being labeled as "extra-large," the previews often rendered details too small to discern clearly
+2. The risk of accidental clicks or presses loomed large, potentially undoing hours of meticulous selection. Moreover, relying solely on mouse navigation tended to slow down the entire process.
 
-I was not able to find any tool, that helps me preview images(at very large size) and simultaneously select the images I want to copy
+I haven't been able to find a tool that allows me to preview images at a very large size while simultaneously selecting the ones I want to copy.
 
-Features
-1. View images at large size and simultaneously select images. 
-2. Images are not copied as soon as you select images, nor they are copied in the end. Reason for not copying images as soon as you select is that you might not want to copy a image, or might decide later after looking at some more images. Copying images later has a problem that it takes a while after you are done labelling to copy the images. Any failures during this operation needs relabelling. I follow a hybrid approach where a buffer of images is kept(default 10 images, buffer_size). The least recently selected photo is copied to the destination whenever the buffer is filled. This helps you to correct any labelling mistakes you make.
-3. Keyboard only operation
+## Features
 
-Controls
-1. Use left/right arrow keys to move through the images. 
-2. Use "a" key to select and "d" key to deselect any image. 
+I've been searching for a tool that allows me to view images at a large size while simultaneously selecting the ones I want to copy, all without reaching for the mouse.
+What I've found frustrating is that most tools either copy images immediately upon selection or only allow copying after I've finished selecting. Neither approach works seamlessly for me. If I copy images right away, I might change my mind later or realize I missed something important. On the other hand, copying images after selecting them all means waiting for the copying process to complete, which can be time-consuming. Plus, any failures during this process mean I have to start over, which is a hassle. To tackle this, I've developed a hybrid approach: I maintain a buffer of images (let's say 10 by default), and whenever the buffer is filled, the least recently selected photo is copied to the destination. This way, I can correct any labeling mistakes I make without losing too much progress.
+
+Additionally, my ideal solution should enable me to accomplish all these tasks using only the keyboard, ensuring maximum efficiency. Here are the controls I envision:
+
+## Controls:
+1. Utilize the left and right arrow keys to navigate through the images.
+2. Press the "a" key to select an image, and "d" key to deselect it as needed.
 
